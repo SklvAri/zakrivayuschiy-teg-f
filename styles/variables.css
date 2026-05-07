@@ -1,1 +1,30 @@
-/* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
+
+:root {
+    --font-accent: 'PressStart2P', fantasy, Courier, monospace;
+    --font-basic: 'Inter-Variable', Arial, sans-serif;
+    --fw-basic: 410;
+    --fw-title: 715;
+    --fw-accent: 400;
+    --fs-accent: 14px;
+    --bg-image: repeating-linear-gradient(90deg, #d3d3d3 0 2px, transparent 2px 4px),
+    repeating-linear-gradient(#d3d3d3 0 2px, transparent 2px 4px),
+    linear-gradient(#e7e7e7, #1a1a1a);
+    --width-container: clamp(375px, calc(260.563px + 30.516vw), 700px);
+    --padding-header: clamp(122px, calc(119.183px + 0.751vw), 130px) clamp(16px, calc(-21.5px + 10vw), 122.5px);
+    --fs-title: clamp(3.0625rem, 2.7104rem + 1.5023vw, 4.0625rem);
+    --fs-subtitle: clamp(0.875rem, 0.6769rem + 0.8451vw, 1.4375rem);
+    --shadow-color: rgba(255, 255, 255, 1);
+    --bg-color: rgba(255, 255, 255, 1);
+    --color: rgba(0, 0, 0, 1);
+    --bg-accent-color: rgba(255, 255, 255, 1);
+    --accent-color: rgba(255, 255, 255, 1);
+    --border-color: rgba(0, 0, 0, 1);
+    --decorated-color: rgba(0, 0, 0, 1);
+    --contour: rgba(0, 0, 0, 1);
+    --animation-fill-color: rgba(255, 0, 0, 1);
+}
+@media (width <= 375px) {
+    :root {
+        --width-container: clamp(320px, calc(0px + 100vw), 375px);
+    }
+}
