@@ -1,3 +1,6 @@
+/*Никита, добрый день! Выравнивание/размеры указывала относительно макета из фигмы. 
+В пиксель-пёрфикт не сходится с макетом - так как разный объём контента внутри карточки,
+если указать текст, как было изначально - всё сходится*/
 
 
 .page {
@@ -9,12 +12,13 @@
     background-position: center;
     background-attachment: fixed;
     margin: 0 auto;
+    font-variation-settings: 'wght' var(--font-weight);
 }
 
 .header {
     font-family: var(--font-accent), fantasy;
     text-transform: uppercase;
-    margin-block: 100px 95px;
+    margin-block: 100px 96px;
 }
 
 .container {
@@ -51,7 +55,6 @@
 }
 
 .card {
-    font-variation-settings: "wght" var(--fw-basic);
     font-size: 18px;
     line-height: 21px;
 }
@@ -253,35 +256,31 @@
     box-shadow: 2px 2px 0 var(--decorated-color);
 }
 
-.sunset {
+.contrast_brightness_saturate {
     filter: contrast(1.1) brightness(1.2) saturate(1.2);
 }
 
-.blank_slate {
+.grayscale {
     filter: grayscale(1);
 }
 
-.doubts {
+.opacity {
     filter: opacity(0.7);
 }
 
-.ideal {
-    filter: grayscale(1);
-}
-
-.people_around {
+.blur {
     filter: blur(3px);
 }
 
-.different_angle {
+.hue-rotate_brightness {
     filter: hue-rotate(150deg) brightness(1);
 }
 
-.overcoming {
+.invert_brightness_saturate {
     filter: invert(0.9) brightness(1.1) saturate(1.2);
 }
 
-.inspiration {
+.saturate_blur {
     filter: saturate(1.1) blur(1px);
 }
 
