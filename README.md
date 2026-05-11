@@ -1,1 +1,1 @@
-https://sklvari.github.io/zakrivayuschiy-teg-f/
+https://github.com/SklvAri/zakrivayuschiy-teg-f
